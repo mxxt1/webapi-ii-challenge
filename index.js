@@ -20,6 +20,6 @@ server.use('/api/posts', router);
 
 const port = process.env.PORT
 
-server.listen(8000, () => {
+server.listen(port, () => {
     console.log(`server is running on localhost:8000`);
 });
